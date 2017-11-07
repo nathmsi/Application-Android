@@ -14,7 +14,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Cars" />
+            android:text="Cars"
+            android:textColor="#13147c"
+            android:background="#edffffff"/>
 
         <Button
             android:id="@+id/button2"
@@ -23,6 +25,8 @@
             android:layout_weight="1"
             android:text="Clients"
             android:textSize="12sp"
+            android:textColor="#13147c"
+            android:background="#edffffff"
             android:textStyle="bold" />
 
         <Button
@@ -31,6 +35,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Branchs"
+            android:textColor="#13147c"
+            android:background="#edffffff"
             android:textSize="10sp" />
 
         <Button
@@ -39,6 +45,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:text="Models"
+            android:textColor="#13147c"
+            android:background="#edffffff"
             android:textSize="12sp"
             android:textStyle="bold" />
 
@@ -58,7 +66,11 @@
             android:headerDividersEnabled="false"
             android:layout_above="@+id/button7"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentEnd="true"
+
+            android:textColor="#02fac9"
+            android:background="#edffffff"
+            />
 
         <Button
             android:id="@+id/button7"
@@ -66,11 +78,12 @@
             android:layout_height="wrap_content"
             android:text="Return"
             android:onClick="btnClick2"
+
+            android:textColor="#3d4eab"
+            android:background="#ffffff"
             android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_marginRight="22dp"
-            android:layout_marginEnd="22dp" />
+            android:layout_alignParentEnd="true" />
 
 
     </RelativeLayout>

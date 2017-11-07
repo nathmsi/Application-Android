@@ -2,6 +2,7 @@ package com.example.nathanmsika.Android5778_6244_8742_01.controllers;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -36,6 +37,7 @@ public class Activity_list extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_all);
         liste = (ListView) findViewById(R.id.listView);
+
         bk = Factoty_method.getInstance();
         if (bk.check_exist_list())
         {
@@ -48,41 +50,18 @@ public class Activity_list extends Activity {
         Button b_Models = (Button) findViewById(R.id.button4);
 
 
+       // b_Branch.setBackgroundColor("#60efd3");
+      //  b_Client.setBackgroundColor(Color.BLUE);
+       // b_cars.setBackgroundColor(Color.BLUE);
+       // b_Models.setBackgroundColor(Color.BLUE);
 
+        b_cars.setOnClickListener(new View.OnClickListener() {@Override public void onClick(View v) {f1();}});
 
-        b_cars.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                f1();
-            }
-        });
+        b_Client.setOnClickListener(new View.OnClickListener() {@Override public void onClick(View v) {f2();}});
 
-        b_Client.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                f2();
-            }
-        });
+        b_Branch.setOnClickListener(new View.OnClickListener() {@Override public void onClick(View v) {f3();}});
 
-        b_Branch.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                f3();
-            }
-        });
-
-        b_Models.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                f4();
-            }
-        });
-
-
-
-
-
-
+        b_Models.setOnClickListener(new View.OnClickListener() {@Override public void onClick(View v) {f4();}});
 
     }
 
