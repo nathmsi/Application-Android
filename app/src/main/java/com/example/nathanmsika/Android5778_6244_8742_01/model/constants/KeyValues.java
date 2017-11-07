@@ -20,23 +20,11 @@ public class KeyValues {
     public static String VALUE_USER = "nathan" ;
     public static String VALUE_PASSWORD = "321" ;
 
-    public void setS1(String s1) {
-        this.s1 = s1;
-    }
 
-    public void setP1(String p1) {
-        this.p1 = p1;
-    }
-
-    public KeyValues()
-    {
-       lst = new ArrayList<>();
-    }
+    public static String VALUE_USER2 = "samuel" ;
+    public static String VALUE_PASSWORD2 = "samuel" ;
 
 
-    void add(KeyValues k){
-        lst.add(k);
-    }
 
 
 }

@@ -106,7 +106,8 @@ public class MainActivity extends AppCompatActivity
                 String user = userName.getText().toString();
                 String password = userPassword.getText().toString();
 
-                if (user.equals(KeyValues.VALUE_USER) && password.equals(KeyValues.VALUE_PASSWORD)){
+                if ((user.equals(KeyValues.VALUE_USER) && password.equals(KeyValues.VALUE_PASSWORD)) ||
+                        (user.equals(KeyValues.VALUE_USER2) && password.equals(KeyValues.VALUE_PASSWORD2)) ){
                     Intent intent = new Intent(MainActivity.this, MainActivity2.class);
                     intent.putExtra(KeyValues.KEY1 , KeyValues.VALUE1);
                     startActivity(intent);
