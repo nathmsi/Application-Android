@@ -12,6 +12,13 @@ import android.widget.ListView;
  */
 import com.example.nathanmsika.my_navigation_drawer.R;
 
+import java.util.List;
+import java.util.Random;
+
+import android.app.ListActivity;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.ArrayAdapter;
 public class MainActivity2 extends AppCompatActivity {
 
     ListView mListView;
@@ -42,6 +49,11 @@ public class MainActivity2 extends AppCompatActivity {
         startActivity(i);
         finish();
     }
+
+
+
+
+
 
 
 

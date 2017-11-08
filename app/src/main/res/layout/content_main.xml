@@ -9,10 +9,10 @@
 
     <RelativeLayout
 
-        android:layout_width="338dp"
-        android:layout_height="367dp"
-        tools:layout_editor_absoluteX="30dp"
-        tools:layout_editor_absoluteY="16dp">
+        android:layout_width="381dp"
+        android:layout_height="392dp"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="1dp">
 
         <TextView
             android:id="@+id/title"
