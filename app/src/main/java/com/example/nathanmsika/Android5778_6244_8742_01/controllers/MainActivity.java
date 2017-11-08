@@ -27,7 +27,6 @@ public class MainActivity extends AppCompatActivity
     EditText userName,userPassword;
     Button cancel,submit,menu ;
     @Override
-
     protected void onCreate(Bundle savedInstanceState) {
 
 

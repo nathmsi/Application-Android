@@ -30,6 +30,10 @@ public class MainActivity2 extends AppCompatActivity {
 
         Button submit = (Button) findViewById(R.id.button_cars);
 
+        Button essai = (Button) findViewById(R.id.button5);
+
+
+
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -38,6 +42,13 @@ public class MainActivity2 extends AppCompatActivity {
             }
         });
 
+        essai.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, Activity_Client.class);
+                startActivity(intent);
+            }
+        });
 
 
     }
