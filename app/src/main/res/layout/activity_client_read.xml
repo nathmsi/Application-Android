@@ -7,11 +7,16 @@
         android:id="@+id/idBtn2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="READ" />
+        android:text="READ"
+        android:background="#FFCC65"/>
 
     <TextView
         android:id="@+id/idResult"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="25sp"/>
+        android:textSize="15sp"
+        />
+
+
+
 </LinearLayout>

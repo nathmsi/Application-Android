@@ -5,13 +5,19 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.nathanmsika.Android5778_6244_8742_01.model.datasource.DataBaseHelper;
+import com.example.nathanmsika.Android5778_6244_8742_01.model.entites.Car;
 import com.example.nathanmsika.my_navigation_drawer.R;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Created by nathanmsika on 08/11/2017.
@@ -23,11 +29,11 @@ public class Activity_Client_Read extends AppCompatActivity {
     TextView txtResult;
     Button btnClick;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_client_read);
+
 
         myDb = new DataBaseHelper(this);
         txtResult = (TextView) findViewById(R.id.idResult);
@@ -68,6 +74,8 @@ public class Activity_Client_Read extends AppCompatActivity {
         {
             Log.d("APP","error: " + ex.getMessage());
         }
+
+
     }
 
 }
