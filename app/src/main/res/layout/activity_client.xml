@@ -7,29 +7,25 @@
         android:id="@+id/idName"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
         android:text="NAME" />
 
     <EditText
         android:id="@+id/idSurname"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
         android:text="SURNAME" />
 
     <EditText
         android:id="@+id/idMarks"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
         android:text="MARKS" />
 
     <Button
         android:id="@+id/idBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="INSERT" />
+        android:text="INSERT"
+        android:background="#FFCC65"/>
+
 </LinearLayout>
