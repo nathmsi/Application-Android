@@ -48,12 +48,14 @@ public class Activity_Client extends AppCompatActivity{
 
         try {
             String name = txtName.getText().toString();
-
             String surname = txtSurName.getText().toString();
             String marks = txtMarks.getText().toString();
+
+
             Boolean result = myDb.insertData(name, surname, marks);
+
             if (result == true)
-                Toast.makeText(this, "Daa Inserted Successfully", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "Data Inserted Successfully", Toast.LENGTH_SHORT).show();
             else
                 Toast.makeText(this, "Daa Inserted Failed", Toast.LENGTH_SHORT).show();
         }

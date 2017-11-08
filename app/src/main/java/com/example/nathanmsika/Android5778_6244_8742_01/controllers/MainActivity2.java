@@ -31,7 +31,7 @@ public class MainActivity2 extends AppCompatActivity {
         Button submit = (Button) findViewById(R.id.button_cars);
 
         Button essai = (Button) findViewById(R.id.button5);
-
+        Button essai_read = (Button) findViewById(R.id.button8);
 
 
         submit.setOnClickListener(new View.OnClickListener() {
@@ -49,7 +49,13 @@ public class MainActivity2 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        essai_read.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity2.this, Activity_Client_Read.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
