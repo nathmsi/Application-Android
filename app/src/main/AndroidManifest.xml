@@ -9,8 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
-            android:name="com.example.nathanmsika.Android5778_6244_8742_01.controllers.MainActivity"
+            android:name="com.example.nathanmsika.Android5778_6244_8742_01.controllers.SplashScreen"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -21,31 +22,33 @@
         </activity>
 
         <activity
+            android:name="com.example.nathanmsika.Android5778_6244_8742_01.controllers.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <activity
             android:name="com.example.nathanmsika.Android5778_6244_8742_01.controllers.MainActivity2"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
-
         </activity>
 
         <activity
             android:name="com.example.nathanmsika.Android5778_6244_8742_01.controllers.Activity_list"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
-
         </activity>
 
         <activity
             android:name="com.example.nathanmsika.Android5778_6244_8742_01.controllers.Activity_Client"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
-
         </activity>
 
         <activity
             android:name="com.example.nathanmsika.Android5778_6244_8742_01.controllers.Activity_Client_Read"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
-
         </activity>
 
     </application>
